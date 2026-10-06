@@ -1122,8 +1122,11 @@ ol.steps {
   font-size: 1.3rem;
 }
 img.avatar {
+  display: block;
   border: 2px solid var(--line);
   background: var(--bg-2);
+  object-fit: cover;
+  object-position: center 35%;
 }
 .av-initials {
   background: var(--bg-2);
@@ -1516,7 +1519,10 @@ h1 {
   font-size: 4.5rem;
 }
 img.avatar-xl {
+  display: block;
   border: 1px solid var(--line);
+  object-fit: cover;
+  object-position: center 35%;
 }
 .member-info h2 {
   margin: 0 0 0.35rem;
