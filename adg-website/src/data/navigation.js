@@ -24,7 +24,7 @@ export const socials = [
   { name: 'Instagram', label: 'IG', href: 'https://instagram.com' },
   { name: 'LinkedIn', label: 'LI', href: 'https://linkedin.com' },
   { name: 'GitHub', label: 'GH', href: 'https://github.com' },
-  { name: 'Email', label: '@', href: 'mailto:adg@sfit.ac.in' }
+  { name: 'Email', label: '@', href: 'mailto:sfit.aidg@gmail.com' }
 ];
 
 export const programmeLinks = [

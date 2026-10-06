@@ -13,7 +13,7 @@ export const site = {
     "Mt. Poinsur, S.V.P. Road, Borivli (W)",
     "Mumbai 400103",
   ],
-  email: "adg@sfit.ac.in",
+  email: "sfit.aidg@gmail.com",
   facultyCoordinator: "Ms. Priyanka Patil",
   repo: "https://github.com/adgsfit/ADG-Official",
 };

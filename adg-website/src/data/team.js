@@ -164,7 +164,7 @@ export function getMemberData(name, role, domain) {
     hasLinkedin: !!direct,
     github: 'https://github.com/search?q=' + ghQuery,
     instagram: 'https://www.instagram.com/' + igQuery,
-    email: 'mailto:adg@sfit.ac.in?subject=Connecting%20with%20' + encodeURIComponent(cleanName),
+    email: 'mailto:sfit.aidg@gmail.com?subject=Connecting%20with%20' + encodeURIComponent(cleanName),
     bio: getRoleBio(role, domain)
   };
 }
