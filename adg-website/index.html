@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="midnight">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ADG — AI Developers Group, SFIT</title>
+    <meta
+      name="description"
+      content="ADG (AI Developers Group) is the student-run AI and ML committee at SFIT, Department of AIML. Events, team, gallery and how to join."
+    />
+    <meta name="theme-color" content="#0c1426" />
+    <link rel="icon" href="/assets/adg-badge.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/assets/adg-badge.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ADG — AI Developers Group, SFIT" />
+    <meta
+      property="og:description"
+      content="Learn machine learning by building it. Study circles, build sprints and a paper club at SFIT."
+    />
+    <meta property="og:image" content="/assets/adg-badge.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Apply the saved colour scheme before first paint so the page never flashes the wrong theme -->
+    <script>
+      (function () {
+        var root = document.documentElement;
+        try {
+          var t = localStorage.getItem("adg-theme");
+          if (t !== "midnight" && t !== "paper") t = matchMedia("(prefers-color-scheme: light)").matches ? "paper" : "midnight";
+          root.setAttribute("data-theme", t);
+        } catch (e) {
+          root.setAttribute("data-theme", "midnight");
+        }
+      })();
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Instrument+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
